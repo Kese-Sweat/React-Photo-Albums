@@ -1,19 +1,118 @@
 {
-  "posts": [
+  "albums": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "Vehicles",
+      "thumbnail": "http://placehold.it/250x250",
+      "pictures": [
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        },
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        },
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        }
+      ]
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": "Coffee",
+      "thumbnail": "http://placehold.it/250x250",
+      "pictures": [
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        },
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        },
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Inspiration",
+      "thumbnail": "http://placehold.it/250x250",
+      "pictures": [
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        },
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        },
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Panama",
+      "thumbnail": "http://placehold.it/250x250",
+      "pictures": [
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        },
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        },
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Restaurant",
+      "thumbnail": "http://placehold.it/250x250",
+      "pictures": [
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        },
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        },
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "R.I.P KOBE",
+      "thumbnail": "http://placehold.it/250x250",
+      "pictures": [
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        },
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        },
+        {
+          "title": "photo 1",
+          "src": "http://placehold.it/250x250"
+        }
+      ]
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
