@@ -1,12 +1,63 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 
-function AlbumDetails(){
-    return (
-    <h1>MY ALBUMS</h1>
-  
 
-    )   
+
+function AlbumDetails(props){
+    
+    const [details, myDetails] = useState ({pictures:[]})
+    const [albumLink, setLink] = useState ('')
+    
+
+    
+    useEffect(()=>{
+        const id = props.match.params.id
+        axios.get('http://localhost:3001/albums/' + id).then(resp=>{
+            myDetails(resp.data)
+            setLink(resp.data)
+
+            
+            console.log(resp.data)
+        })
+        console.log(albumLink)
+        
+    },[props.match.params.id])
+    
+
+        
+    return <div>
+    <h1>{details.title}</h1>
+    <div>
+    <ul className="detailList">
+        {details.pictures.map(item =>{
+            return <li key={item.id}><img className="detailImg" src={item.src}/><div className="detailTitle">{item.title}</div> </li>            
+        })}
+    </ul>
+    </div>
+    <ul className="sideList">
+          <li className="albumLinks">
+            <Link to="/Albums/1">VEHICLES</Link>
+          </li>
+          <li className="albumLinks">
+            <Link to="/Albums/2">COFFEE</Link>
+          </li>
+          <li className="albumLinks">
+            <Link to="/Albums/3">INSPIRATION</Link>
+          </li>
+          <li className="albumLinks">
+            <Link to="/Albums/4">PANAMA</Link>
+          </li>
+          <li className="albumLinks">
+            <Link to="/Albums/5">RESTAURANT</Link>
+          </li>
+          <li className="albumLinks">
+            <Link to="/Albums/6">R.I.P KOBE</Link>
+          </li>
+        </ul>
+    </div>
+     
 }
 
 export default AlbumDetails

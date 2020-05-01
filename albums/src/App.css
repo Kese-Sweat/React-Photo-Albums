@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 .albumList{
@@ -14,7 +15,7 @@
 
 .titleThumbnail{
 
-  margin-right: 5%;
+  margin-right: 8%;
   margin-bottom: 5%;
  
 }
@@ -26,3 +27,33 @@ h1{
     justify-content: center;
 }
 
+.detailList{
+
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-left: 15%
+}
+
+.sideList{
+  position: absolute;
+}
+
+.albumLinks{
+  margin-bottom: 35%;
+}
+
+.detailImg{
+  margin-right: 150px;
+}
+
+.detailTitle{
+  padding-left: 25%;
+  padding-top: 5%;
+}
+
+.albumTitle{
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
