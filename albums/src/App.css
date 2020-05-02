@@ -1,3 +1,10 @@
+
+body{
+
+}
+
+
+
 *{
   list-style: none;
   padding: 0;
@@ -17,14 +24,23 @@
 
   margin-right: 8%;
   margin-bottom: 5%;
+  border-style: groove;
+  border-color: lightgray;
+  border-radius: 10px;
+
  
 }
 
 h1{
-     margin-bottom: 5%;
-    margin-top: 2%;
+   margin-bottom: 5%;
+    padding-bottom: 5%;
+    background-size: cover;
+    color: white;
     display: flex;
     justify-content: center;
+    background-image: url('./camera2.jpg');
+    background-position: center;
+    border:double
 }
 
 .detailList{
@@ -40,7 +56,15 @@ h1{
 }
 
 .albumLinks{
-  margin-bottom: 35%;
+    margin-bottom: 35%;
+    background-color: olive;
+    border-radius: 2px;
+    
+    margin-left: 10px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+
 }
 
 .detailImg{
@@ -56,4 +80,9 @@ h1{
   display: flex;
   justify-content: center;
   padding-top: 5%;
+  padding-bottom: 20px;
+}
+
+.links{
+  color: whitesmoke;
 }

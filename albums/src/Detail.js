@@ -38,22 +38,22 @@ function AlbumDetails(props){
     </div>
     <ul className="sideList">
           <li className="albumLinks">
-            <Link to="/Albums/1">VEHICLES</Link>
+            <Link className="links" to="/Albums/1">VEHICLES</Link>
           </li>
           <li className="albumLinks">
-            <Link to="/Albums/2">COFFEE</Link>
+            <Link className="links" to="/Albums/2">COFFEE</Link>
           </li>
           <li className="albumLinks">
-            <Link to="/Albums/3">INSPIRATION</Link>
+            <Link className="links" to="/Albums/3">INSPIRATION</Link>
           </li>
           <li className="albumLinks">
-            <Link to="/Albums/4">PANAMA</Link>
+            <Link className="links" to="/Albums/4">PANAMA</Link>
           </li>
           <li className="albumLinks">
-            <Link to="/Albums/5">RESTAURANT</Link>
+            <Link className="links" to="/Albums/5">RESTAURANT</Link>
           </li>
           <li className="albumLinks">
-            <Link to="/Albums/6">R.I.P KOBE</Link>
+            <Link className="links" to="/Albums/6">R.I.P KOBE</Link>
           </li>
         </ul>
     </div>
