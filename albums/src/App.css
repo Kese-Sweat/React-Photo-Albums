@@ -40,7 +40,9 @@ h1{
     justify-content: center;
     background-image: url('./camera2.jpg');
     background-position: center;
-    border:double
+    border:double;
+    padding-top: 5%;
+    color: antiquewhite;
 }
 
 .detailList{
@@ -69,6 +71,9 @@ h1{
 
 .detailImg{
   margin-right: 150px;
+  border-style: groove;
+  border-color: lightgray;
+  border-radius: 10px;
 }
 
 .detailTitle{
@@ -85,4 +90,9 @@ h1{
 
 .links{
   color: whitesmoke;
+}
+
+.thumbnail{
+  width: 250px;
+  height: 250px;
 }

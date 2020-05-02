@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 function AlbumDetails(props){
     
     const [details, myDetails] = useState ({pictures:[]})
-    const [albumLink, setLink] = useState ('')
+    const [albumLink, setLink] = useState (null)
     
 
     
